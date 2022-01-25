@@ -28,7 +28,7 @@ xMax = 2;
 reshaped_final_data(reshaped_final_data <= xMin |reshaped_final_data >= xMax) = [];
 
 % Step 4: Plot the Peristimulus Time Histogram for the delta that falls
-% within [-2 2] seconds
+% within [-2 2] seconds at a binwidth of 1ms
 
 figure()
 h2 = histogram(reshaped_final_data, 'BinWidth', 0.001), xlim([-0.5 0.5]); ylim([0 10]); xlabel('Time (seconds)'); ylabel('Count');
