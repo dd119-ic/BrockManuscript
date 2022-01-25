@@ -2,6 +2,7 @@
 
 % Author: Deyl Djama
 % Institution: Imperial College London
+% Version: 1.0
 
 % Step 1: Calculate the delta between each input & output, then store, trim and rearrange
 % the data.
